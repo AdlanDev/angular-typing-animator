@@ -1,4 +1,4 @@
-# Angular 13 Typing Animator - Directive
+# Angular 15 Typing Animator - Directive
 
 # Usage
 
