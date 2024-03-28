@@ -1,0 +1,48 @@
+{
+  "name": "angular-typing-animator",
+  "version": "0.0.9",
+  "author": "Naran Mistry <naranmistry.business@outlook.com>",
+  "description": "Angular 13 Typing Animator",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naranmistry/angular-typing-animator"
+  },
+  "bugs": {
+    "url": "https://github.com/naranmistry/angular-typing-animator/issues"
+  },
+  "homepage": "https://github.com/naranmistry/angular-typing-animator#readme",
+  "keywords": [
+    "angular 13",
+    "angular",
+    "animation",
+    "typing effect",
+    "cursor typing"
+  ],
+  "peerDependencies": {
+    "@angular/common": "^13.2.0",
+    "@angular/core": "^13.2.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "module": "fesm2015/angular-typing-animator.mjs",
+  "es2020": "fesm2020/angular-typing-animator.mjs",
+  "esm2020": "esm2020/angular-typing-animator.mjs",
+  "fesm2020": "fesm2020/angular-typing-animator.mjs",
+  "fesm2015": "fesm2015/angular-typing-animator.mjs",
+  "typings": "angular-typing-animator.d.ts",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./angular-typing-animator.d.ts",
+      "esm2020": "./esm2020/angular-typing-animator.mjs",
+      "es2020": "./fesm2020/angular-typing-animator.mjs",
+      "es2015": "./fesm2015/angular-typing-animator.mjs",
+      "node": "./fesm2015/angular-typing-animator.mjs",
+      "default": "./fesm2020/angular-typing-animator.mjs"
+    }
+  },
+  "sideEffects": false
+}
